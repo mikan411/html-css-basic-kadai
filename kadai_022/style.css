@@ -32,7 +32,7 @@ main{
 .contents{
 border: solid 3px rgb(238,204,204);
 flex-basis:25%;
-border: 10px 15px;
+padding: 10px 15px;
 margin: 20px 0px;
 text-align: center;
 }
@@ -47,7 +47,7 @@ h2::before{
   color:rgb(239,111,139);
 }
 
-.contents p :nth-of-type(2)::first-letter{
+.contents p:nth-of-type(2)::first-letter{
   color:rgb(97,206,249);
   font-weight: bold;
 }
@@ -74,7 +74,7 @@ a:hover{
   color:rgb(245,178,168);
 }
 
-@media screen and(max-width:768px){
+@media screen and (max-width:768px){
   h2{
     font-size: 30px;
   }
@@ -82,8 +82,7 @@ a:hover{
     font-size: 25px;
   }
   #parent{
-    display:flex;
-    align-content:space-between ;
+    display:block;
   }
 }
   
